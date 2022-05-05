@@ -1,0 +1,362 @@
+div.caixa{
+	position: absolute; 
+	right: 0px;
+	width: 60px;
+	height: 50px;
+	top: 0px;
+}
+
+div.barra{
+	background: #fff;
+	position: absolute;
+	right: 0px;
+	width: 50px;
+	height: 10px;
+	margin: 5px;
+	top: 10px;
+}
+
+div.itens{
+	background: #fff;
+	position: absolute;
+	right: 0px;
+	width: 450px;
+	height: 500px;	
+	z-index: 3;
+	top: 43px;
+	margin-right: -450px;
+	transition-duration: 0.6s; 
+	display: flex;
+	flex-direction: column;
+}
+
+.item{
+	width: 100%;
+	height: 40px;
+	border: solid 1.5px #000;
+	color: #000;
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+.item:hover{
+	background-color: lightgray;
+}
+
+#barra1{
+	top: 0px;
+}
+
+#barra2{
+	top: 15px;
+}
+
+#barra3{
+	top: 30px;
+}
+
+.menu:hover .caixa{
+	background-color: lightblue;
+}
+
+.menu:hover .itens{
+	margin-right: 0px;
+}
+
+.item p{	
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+*{
+				padding: 0px;
+				margin: 0px;
+
+			}
+			
+			body{
+				background-color: gray;
+				height: 200vh;
+				/*height: 100vh;*/
+				width: 100vw;
+				overflow-x: hidden;				
+			}
+			
+			div#telafundo{
+				position: absolute;
+				background-color: gray;
+				height: 100%;				
+				width: 100%;				
+				z-index: 0;
+				
+			}
+
+			/*div#slider{
+				position: absolute;
+				width: 100%;
+				height: 900px;
+				background: greenyellow;
+				top: 60px;
+			}*/
+
+			img{
+				width: 900px;
+				margin-top: 17px;				
+			}
+
+			div#slider img{
+				position: absolute;
+				width: 100%;
+				height: 400px;
+				left: 0px;
+				top: 42px;
+				object-fit: cover;
+				opacity: 0;
+				transition: opacity 800ms;
+			}
+
+			div#slider img.selected{
+				opacity: 1;
+			}
+			
+			nav{
+				position: absolute;
+				background-color: blue;
+				width: 100%;
+				/*z-index: 1;*/
+				color: #fff;
+				height: 50px;
+				text-align: center;
+				font-family: verdana;
+				line-height: 2;
+			}
+			
+			div#textoPrincipal{
+				position: absolute;
+				background-color: #fff;				
+				width: 715px;
+				height: 1420px;
+				z-index: 2;
+				top: 70;
+				left: 10px;
+				border-radius: 5px;
+				text-align: center;				
+				font-family: Arial;
+			}
+			
+			h1#TituloPrincipal{
+				margin-top: 10px;
+				margin-bottom: 450px;
+			}
+			
+			div#aside1{
+				position: absolute;
+				background-color: #fff;
+				z-index: 2;
+				width: 600px;
+				height: 460px;
+				top: 70px;
+				right: 10px;
+				border-radius: 5px;
+			}
+			
+			div#aside1 img{
+				width: 100%;
+				cursor: pointer;				
+			}
+			
+			div#aside2{
+				position: absolute;
+				background-color: #fff;
+				z-index: 2;
+				width: 600px;
+				height: 460px;
+				top: 550px;
+				right: 10px;
+				border-radius: 5px;				
+			}
+			
+			div#aside3{
+				position: absolute;
+				background-color: #fff;
+				z-index: 2;
+				width: 600px;
+				height: 460px;
+				top: 1031px;
+				right: 10px;
+				border-radius: 5px;
+			}
+						
+			
+			h2{
+				text-align: center;
+				margin-top: 10px;
+				font-family: Arial;
+				font-size: 30px;
+			}				
+			
+			div#aside1 img:hover{
+				width: 560px;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%);							
+			}
+			
+			div#aside2 img:hover{
+				width: 560px;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%);							
+			}			
+			
+			div#aside3 img:hover{
+				width: 560px;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%);							
+			}
+			
+			p{
+				text-align: left;
+				margin: 15px 10px 0px; 10px;
+			}
+			
+			div#aside1 div{
+				position: absolute;
+				left: 130px;	 				
+				bottom: 15px;
+				font-family: Arial;
+				
+			}
+
+			div#aside1 div{
+				text-align: center;
+				width: 100%;				
+				left: 0px;
+			}
+
+			div#aside1 img{
+				height: 350px;
+			}
+			
+			div#aside2 img{
+				width: 100%;
+				height: 350px;
+				margin-top: 16px;
+				cursor: pointer;
+			}
+			
+			div#aside2 div{
+				font-family: Arial;
+				position: absolute;
+				left: 50%;
+				transform: translate(-50%);
+				bottom: 20px;
+				width: 100%;
+				text-align: center;
+			}
+			
+			div#aside3 img{
+				position: absolute;
+				width: 100%;
+				height: 350px;
+				cursor: pointer;
+			}
+			
+			div#aside3 div{
+				position: absolute;
+				bottom: 20px;
+				font-family: Arial;
+				text-align: center;
+				left: 50%;
+				transform: translate(-50%);
+				width: 100%;
+			}
+
+			@media screen and (max-width: 1290px){
+				
+
+
+				div#aside1{
+					background: #fff;
+					width: 520px;
+					position: absolute;
+					right: 20px;
+					
+				}
+
+
+				div#aside1 img{
+					width: 100%;
+				}
+
+				div#aside1 img:hover{
+					width: 95%;
+				}
+
+				
+				
+				div#aside2 img:hover{
+					width: 95%;
+				}
+
+				div#aside2{
+					background: #fff;
+					width: 520px;
+					position: absolute;
+					right: 20px;
+				
+				}
+
+				
+
+				div#aside3 img:hover{
+					width: 95%;
+				}
+
+				div#aside3{
+					background: #fff;
+					width: 520px;
+					position: absolute;
+					right: 20px;
+				
+				}
+			
+
+				div#textoPrincipal{
+					position: absolute;
+					width: 680px;					
+					margin-bottom: 200px;
+					bottom: 100px;
+					height: 1420px;
+					left: 20px;
+				}
+
+				div#textoPrincipal img{					
+					width: 100%;
+					height: 30%;
+					margin-bottom: 0px;
+					
+				}
+
+				div#telafundo{
+					height: 220vh;					
+				}	
+
+				main div#nintendo{					
+					position: absolute;
+					background: red;
+				}
+
+				
+
+
+
+			
+

@@ -1,0 +1,177 @@
+div.textoPrincipalNintendo{
+	width: 715px;
+	height: 1420px;
+	background: #fff;
+	position: absolute;
+	left: 10px;
+	top: 70px;
+	font-family: arial;
+	border-radius: 5px; 	
+}
+
+div.textoPrincipalNintendo img{
+	position: absolute;
+	top: 45px;
+	width: 100%;
+	height: 400px;
+}
+
+
+
+h1{
+	text-align: center;
+}
+
+h1.h1Mario{
+	margin-top: 10px;
+}
+
+div.slides{		
+	width: 3636px;
+	margin-top: -1px;
+	margin-left: -50x;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	display: flex;	
+}
+
+div.img{
+	width: 20%;
+	height: 400px;	
+}
+
+div.img img{
+	width: 100%;
+	height: 400px;	
+}
+
+div.textoPrincipalMario{
+	width: 715px;
+	height: 1420px;
+	margin-left: 10px;
+	margin-top: 70px;
+	background: #fff;
+	border-radius: 5px; 	
+	overflow: hidden;
+	font-family: arial;
+	font-size: 15.5px;
+}
+
+nav.mario{
+	top: 0px;
+}
+
+div.labels{
+	width: 715px;
+	height: 30px;
+	position: absolute;
+	top: 460px;	
+	left: 0px;	
+	display: flex;
+	justify-content: center;
+}
+
+label{
+	width: 50px;
+	height: 10px;
+	border: solid 3px #fff;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 9px;
+	transition-duration: 0.6s; 
+	cursor: pointer;
+}
+
+label:hover{
+	background: #fff;
+}
+
+.selecionado{
+	transition-duration: 0.6s;
+}
+
+#radio1:checked ~ .selecionado{
+	margin-left: 0%;
+}
+
+#radio2:checked ~ .selecionado{
+	margin-left: -20%;
+}
+#radio3:checked ~ .selecionado{
+	margin-left: -40%;
+}
+#radio4:checked ~ .selecionado{
+	margin-left: -60%;
+}
+#radio5:checked ~ .selecionado{
+	margin-left: -80%;
+}
+
+input{
+	display: none;
+}
+
+p#primeiroParagrafo{
+	margin-top: 30px;
+	color: gray;
+	text-align: center;
+}
+
+p.retorno{
+	color: blue;
+	text-align: center;
+}
+
+/*p.retorno a{
+	text-decoration: none;
+}
+
+p.retorno a:hover{
+	background: lightblue;
+}*/
+
+button{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	width: 95%;
+	margin-top: 10px;
+	padding: 5px;
+	background: blue;
+	color: #fff;
+	border-style: none;
+	cursor: pointer;
+}
+
+div#textoJogo{
+	position: absolute;
+	background: #fff;
+	width: 80%;
+	height: 1420px;
+	border-radius: 6px;
+	left: 50%;
+	transform: translate(-50%);
+	top: 13%;
+	font-family: arial;
+
+}
+
+div#textoJogo h1{
+	text-align: center;
+	margin-top: 10px;
+}
+
+div#textoJogo img{
+	width: 100%;
+	height: 500px;
+}
+
+p#primeiroParagrafoTextoJogo{
+	text-align: center;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+p#ultimoParagrafo{
+	margin-bottom: 20px;
+}
